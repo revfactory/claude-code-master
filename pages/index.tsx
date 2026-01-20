@@ -48,14 +48,7 @@ export default function LandingPage() {
           zIndex: 1,
           maxWidth: '900px'
         }}>
-          <div className="animate-fade-in" style={{
-            fontSize: '5rem',
-            marginBottom: '1rem'
-          }}>
-            ✏️
-          </div>
-
-          <h1 className="animate-fade-in delay-100" style={{
+          <h1 className="animate-fade-in" style={{
             fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
             fontWeight: 800,
             marginBottom: '1.5rem',
