@@ -1,20 +1,14 @@
 import React from 'react'
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
-import { Pencil, Search, List, Edit3, MessageCircle, Sparkles } from 'lucide-react'
-
 const config: DocsThemeConfig = {
   logo: (
     <span style={{
       fontFamily: '"Noto Sans KR", sans-serif',
       fontSize: '1.3rem',
       fontWeight: 700,
-      color: '#0000CD',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '0.5rem'
+      color: '#0000CD'
     }}>
-      <Pencil size={20} />
       Claude Code 마스터
     </span>
   ),
