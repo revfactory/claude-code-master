@@ -186,18 +186,20 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="glass-card" style={{
+          <div style={{
             padding: '2rem',
-            marginBottom: '2rem'
+            marginBottom: '2rem',
+            background: 'rgba(0,0,0,0.4)',
+            borderRadius: '16px'
           }}>
             <pre style={{
-              background: 'rgba(0,0,0,0.3)',
+              background: '#1a1a2e',
               padding: '1.5rem',
               borderRadius: '12px',
               overflow: 'auto',
               fontSize: '0.95rem',
               lineHeight: 1.8,
-              color: '#fff',
+              color: '#e0e0e0',
               border: 'none',
               margin: 0
             }}>
