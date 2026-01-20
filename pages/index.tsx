@@ -14,7 +14,7 @@ const features = [
 
 export default function LandingPage() {
   return (
-    <div className="landing-page" style={{ fontFamily: '"Noto Sans KR", -apple-system, sans-serif' }}>
+    <div className="landing-page" style={{ fontFamily: '"Noto Sans KR", -apple-system, sans-serif', overflowX: 'hidden' }}>
       {/* Hero Section */}
       <div style={{
         minHeight: '100vh',
@@ -157,13 +157,16 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div style={{
+          <div className="feature-grid" style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-            gap: '1.25rem'
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            gap: '1.5rem'
           }}>
             {features.map((feature, index) => (
-              <Link key={index} href={feature.href} style={{ textDecoration: 'none' }}>
+              <Link key={index} href={feature.href} style={{
+                textDecoration: 'none',
+                display: 'block'
+              }}>
                 <div style={{
                   padding: '1.5rem',
                   height: '100%',
@@ -171,7 +174,8 @@ export default function LandingPage() {
                   borderRadius: '10px',
                   border: '1px solid #e4e4e7',
                   transition: 'all 0.15s ease',
-                  cursor: 'pointer'
+                  cursor: 'pointer',
+                  boxSizing: 'border-box'
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.borderColor = '#a1a1aa'

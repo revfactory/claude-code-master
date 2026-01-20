@@ -517,6 +517,7 @@ html[class~="dark"] .icon-box {
 }
 
 .landing-page a {
+  border: none !important;
   border-bottom: none !important;
 }
 
@@ -526,4 +527,17 @@ html[class~="dark"] .icon-box {
 
 .landing-page .btn-dark:hover {
   color: white !important;
+}
+
+/* 반응형 그리드 */
+@media (max-width: 900px) {
+  .landing-page .feature-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .landing-page .feature-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
