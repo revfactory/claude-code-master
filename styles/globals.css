@@ -69,18 +69,8 @@ h2 {
   font-size: 2rem !important;
 }
 
-h2::before {
-  content: "★ ";
-  color: var(--red-ink);
-}
-
 h3 {
   font-size: 1.5rem !important;
-}
-
-h3::before {
-  content: "→ ";
-  color: var(--pen-blue);
 }
 
 /* 본문 텍스트 */
@@ -155,22 +145,13 @@ html[class~="dark"] code {
   border: 1px solid rgba(0, 0, 205, 0.2);
 }
 
-/* 인용문 - 메모 스타일 */
+/* 인용문 스타일 */
 blockquote {
-  border-left: 4px solid var(--red-ink) !important;
-  background: rgba(255, 0, 0, 0.05);
+  border-left: 4px solid var(--pen-blue) !important;
+  background: rgba(0, 0, 205, 0.05);
   padding: 1rem;
   margin: 1rem 0;
   font-style: normal !important;
-  position: relative;
-}
-
-blockquote::before {
-  content: "📌";
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  font-size: 1.5rem;
 }
 
 /* 리스트 스타일 */
@@ -540,15 +521,7 @@ html[class~="dark"] .section-divider {
 .delay-500 { animation-delay: 0.5s; }
 .delay-600 { animation-delay: 0.6s; }
 
-/* 랜딩 페이지에서 기본 h2 스타일 오버라이드 */
-.landing-page h2::before {
-  content: none !important;
-}
-
-.landing-page h3::before {
-  content: none !important;
-}
-
+/* 랜딩 페이지 스타일 오버라이드 */
 .landing-page h1,
 .landing-page h2,
 .landing-page h3 {
