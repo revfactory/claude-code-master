@@ -185,34 +185,12 @@ export default function LandingPage() {
             개발 생산성을 한 단계 높여보세요.
           </p>
 
-          <div style={{
-            display: 'flex',
-            gap: '1rem',
-            justifyContent: 'center',
-            flexWrap: 'wrap'
+          <Link href="/getting-started/introduction" className="btn-gradient" style={{
+            textDecoration: 'none',
+            fontSize: '1.1rem'
           }}>
-            <Link href="/getting-started/introduction" className="btn-gradient" style={{
-              textDecoration: 'none',
-              fontSize: '1.1rem'
-            }}>
-              📖 문서 읽기
-            </Link>
-            <Link href="/contributing" style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '0.5rem',
-              background: 'white',
-              color: '#667eea',
-              border: '2px solid #667eea',
-              padding: '12px 32px',
-              borderRadius: '30px',
-              fontWeight: 600,
-              textDecoration: 'none',
-              transition: 'all 0.3s'
-            }}>
-              💜 기여하기
-            </Link>
-          </div>
+            📖 문서 읽기
+          </Link>
 
           <div style={{
             marginTop: '4rem',
