@@ -47,6 +47,19 @@ const config: DocsThemeConfig = {
 
     return (
       <>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VXVWSZ20CG" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-VXVWSZ20CG');
+            `,
+          }}
+        />
+
         {/* 기본 메타 */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={description} />
