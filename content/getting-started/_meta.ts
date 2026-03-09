@@ -1,0 +1,5 @@
+export default {
+  introduction: '소개',
+  installation: '설치',
+  'quick-start': '빠른 시작',
+}

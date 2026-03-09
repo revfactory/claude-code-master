@@ -1,0 +1,11 @@
+export default {
+  index: '개요',
+  'anthropic-skills': 'Anthropic Skills',
+  'coding-standards': '코딩 표준',
+  'backend-patterns': '백엔드 패턴',
+  'frontend-patterns': '프론트엔드 패턴',
+  'tdd-workflow': 'TDD 워크플로우',
+  'security-review': '보안 리뷰',
+  clickhouse: 'ClickHouse',
+  'project-guidelines': '프로젝트 가이드라인',
+}

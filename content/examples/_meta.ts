@@ -1,0 +1,5 @@
+export default {
+  'project-config': '프로젝트 CLAUDE.md',
+  'user-config': '사용자 CLAUDE.md',
+  workflows: '실전 워크플로우',
+}

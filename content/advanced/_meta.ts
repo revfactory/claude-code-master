@@ -1,0 +1,5 @@
+export default {
+  hooks: '훅 설정',
+  'mcp-servers': 'MCP 서버',
+  'context-window': '컨텍스트 윈도우',
+}

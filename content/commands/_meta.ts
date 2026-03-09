@@ -1,0 +1,12 @@
+export default {
+  index: '개요',
+  plan: '/plan (계획)',
+  tdd: '/tdd (테스트)',
+  'code-review': '/code-review (코드 리뷰)',
+  'build-fix': '/build-fix (빌드 수정)',
+  e2e: '/e2e (E2E 테스트)',
+  'refactor-clean': '/refactor-clean (정리)',
+  'test-coverage': '/test-coverage (커버리지)',
+  'update-docs': '/update-docs (문서)',
+  'update-codemaps': '/update-codemaps (코드맵)',
+}
