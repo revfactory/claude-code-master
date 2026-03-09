@@ -1,7 +1,9 @@
+'use client'
+
 import React from 'react'
 import { Download } from 'lucide-react'
 import { commandContents } from './commandContents'
-import { useTheme } from 'nextra-theme-docs'
+import { useTheme } from 'next-themes'
 
 interface CommandInfo {
   situation: string

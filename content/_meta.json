@@ -2,10 +2,7 @@
   "index": {
     "title": "홈",
     "type": "page",
-    "display": "hidden",
-    "theme": {
-      "layout": "raw"
-    }
+    "display": "hidden"
   },
   "getting-started": {
     "title": "시작하기",

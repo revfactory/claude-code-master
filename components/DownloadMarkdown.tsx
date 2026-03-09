@@ -1,6 +1,8 @@
+'use client'
+
 import React from 'react'
 import { Download, Lightbulb } from 'lucide-react'
-import { useTheme } from 'nextra-theme-docs'
+import { useTheme } from 'next-themes'
 
 interface DownloadMarkdownProps {
   filename: string
